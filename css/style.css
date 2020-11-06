@@ -1,0 +1,42 @@
+.header {
+    border: 3px solid red;
+    background-color: blue;
+    padding: 1rem;
+    color: white;
+}
+
+.nav {
+    border: 3px solid green;
+    background-color: orange;
+    color: black;
+}
+
+.aside {
+    border: 1px solid red;
+    background-color: lightsalmon;
+    color: black;
+    height: 50vh;
+}
+
+.main {
+    border: 1px solid lightseagreen;
+    background-color: lightcoral;
+    color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.article {
+    border: 1px solid red;
+    background-color: yellow;
+    color:black;
+    height: 25%;
+    margin: 1rem 5%;
+}
+
+.footer {
+    color: white;
+    height: 10vh;
+}
